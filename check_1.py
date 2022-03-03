@@ -2,7 +2,6 @@
 
 import subprocess
 
-
 # Check top commit 3 message of log
 command = subprocess.run(['git', 'log', 'main', '-n', '3', '--pretty=format:%s'], stdout=subprocess.PIPE)
 
